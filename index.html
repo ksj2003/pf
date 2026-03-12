@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <meta name="robots" content="All">
+    <meta name="Yeti" content="index, follow">
+    <meta name="Yeti" content="All">
+    <meta name="googlebot" content="All">
+    <meta name="googlebot" content="index, follow">
+    <meta name="daum" content="All">
+    <meta name="daum" content="index, follow">
+    <meta name="title" content="모션그래픽 디자이너 - 강성준 포트폴리오">
+    <meta name="description" content="모션그래픽 디자이너 강성준입니다. 포트폴리오 방문을 환영합니다.">
+    <meta name="keywords" content="영상편집자, 모션그래픽 디자인">
+    <meta name="author" content="강성준">
+    <meta name="content-language" content="kr">
+
+    <meta property="og:type" content="website"> 
+    <meta property="og:site_name" content="강성준 포트폴리오">
+    <meta property="og:title" content="강성준 포트폴리오">
+    <meta property="og:description" content="모션그래픽 디자이너 강성준입니다. 포트폴리오 방문을 환영합니다.">
+    <meta property="og:image" content="image/thumbnail.png"> 
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="site-header">
+      <button
+        class="menu-btn"
+        aria-label="menu"
+        aria-expanded="false"
+        aria-controls="menu-overlay"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+    </header>
+    <aside class="menu-overlay" id="menu-overlay" aria-hidden="true">
+      <button class="menu-close-btn" type="button" aria-label="close menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <nav class="menu-nav" aria-label="Detail Menu">
+        <a class="menu-link" href="#about" data-trail="ABOUT ME">ABOUT ME</a>
+        <a class="menu-link" href="#portfolio" data-trail="PORTFOLIO"
+          >PORTFOLIO</a
+        >
+        <a class="menu-link" href="#about" data-trail="CONTACT">CONTACT</a>
+      </nav>
+      <div class="menu-trail-chain" aria-hidden="true"></div>
+      <div class="menu-trail menu-trail-main" aria-hidden="true"></div>
+    </aside>
+    <main class="site-main">
+      <section class="hero-section" id="top" aria-label="hero">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+        >
+          <source src="video/%2301_Final.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-copy">
+          <h1 class="hero-title" aria-label="MOTION GRAPHICS">
+            <span class="interactive-title" aria-hidden="true">
+              <span class="title-layer title-base">
+                <span class="title-line">MOTION</span>
+                <span class="title-line">GRAPHICS</span>
+              </span>
+              <span class="title-layer title-reveal">
+                <span class="title-line">VISUAL</span>
+                <span class="title-line">STORY</span>
+              </span>
+            </span>
+          </h1>
+        </div>
+      </section>
+      <div class="content-flow">
+        <div class="content-flow-inner">
+          <section
+            class="content-section about-section"
+            id="about"
+            aria-labelledby="about-title"
+          >
+            <div class="section-inner section-shell portfolio-shell about-shell">
+              <div class="section-head">
+                <h2 class="section-title" id="about-title">ABOUT ME</h2>
+              </div>
+              <div class="section-body about-panel-wrap">
+                <div class="about-copy">
+                  <p class="section-copy">저를 소개합니다!</p>
+                </div>
+                <div class="about-panel">
+                  <div class="about-grid">
+                    <article class="about-card about-profile">
+                      <div class="about-profile-media" aria-label="profile image">
+                        <img
+                          src="image/profilepic.jpg"
+                          alt="Profile placeholder"
+                        />
+                      </div>
+                    </article>
+                    <div class="about-side">
+                      <article class="about-card about-meta">
+                        <p class="about-card-label">정보</p>
+                        <dl class="about-meta-list">
+                          <div>
+                            <dt>이름</dt>
+                            <dd>강성준</dd>
+                          </div>
+                          <div>
+                            <dt>분야</dt>
+                            <dd>모션그래픽 / 편집</dd>
+                          </div>
+                          <div>
+                            <dt>작업</dt>
+                            <dd>프리랜서 / 협업</dd>
+                          </div>
+                        </dl>
+                      </article>
+                      <article class="about-card about-tools">
+                        <p class="about-card-label">사용툴</p>
+                        <div class="about-tool-list">
+                          <img
+                            src="icon/Adobe_After_Effects_CC_icon.svg"
+                            alt="Adobe After Effects"
+                          />
+                          <img
+                            src="icon/Adobe_Premiere_Pro_CC_icon.svg"
+                            alt="Adobe Premiere Pro"
+                          />
+                          <img src="icon/Blender_logo_no_text.svg" alt="Blender" />
+                        </div>
+                      </article>
+                      <article class="about-card about-contact">
+                        <p class="about-card-label">연락처</p>
+                        <p class="about-contact-email">plus_minus14@naver.com</p>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            class="content-section portfolio-section"
+            id="portfolio"
+            aria-labelledby="portfolio-title"
+          >
+            <div class="section-inner section-shell portfolio-shell">
+              <div class="section-head">
+                <h2 class="section-title" id="portfolio-title">PORTFOLIO</h2>
+              </div>
+              <div class="section-body portfolio-panel">
+                <div class="portfolio-copy">
+                  <p class="section-copy">
+                    스와이프로 영상 카드를 넘기며 제 작품을 감상하세요!
+                  </p>
+                  <div class="portfolio-nav" aria-label="portfolio navigation">
+                    <button
+                      class="portfolio-nav-btn portfolio-prev"
+                      type="button"
+                    >
+                      PREV
+                    </button>
+                    <button
+                      class="portfolio-nav-btn portfolio-next"
+                      type="button"
+                    >
+                      NEXT
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="swiper portfolio-swiper"
+                  aria-label="portfolio slider"
+                >
+                  <div class="swiper-wrapper">
+                    <article
+                      class="swiper-slide portfolio-card"
+                      data-media-type="video"
+                      data-media-src="video/%2301_Final.mp4"
+                      data-media-title="쉬어 (Copy &amp; Develop)"
+                      data-poster-time="0"
+                    >
+                      <div class="portfolio-card-media">
+                        <video
+                          class="portfolio-card-video"
+                          muted
+                          loop
+                          playsinline
+                          preload="auto"
+                        >
+                          <source src="video/%2301_Final.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                      <div class="portfolio-card-meta">
+                        <div class="portfolio-card-tags">
+                          <span>타이포그래피</span>
+                          <span>모션그래픽</span>
+                        </div>
+                        <button
+                          class="portfolio-card-title portfolio-card-play-trigger"
+                          type="button"
+                          aria-haspopup="dialog"
+                          aria-label="쉬어 (Copy &amp; Develop) 영상 재생"
+                        >
+                          <span class="portfolio-card-title-text">
+                            쉬어 (Copy &amp; Develop)
+                          </span>
+                          <span class="portfolio-card-title-action">영상 재생</span>
+                        </button>
+                      </div>
+                    </article>
+                    <article
+                      class="swiper-slide portfolio-card"
+                      data-media-type="youtube"
+                      data-media-src="https://www.youtube.com/watch?v=RL15ckFg0DE"
+                      data-media-title="유튜브용 카드"
+                    >
+                      <div class="portfolio-card-media">
+                      </div>
+                      <div class="portfolio-card-meta">
+                        <div class="portfolio-card-tags">
+                          <span>프로모션</span>
+                          <span>편집</span>
+                        </div>
+                        <button
+                          class="portfolio-card-title portfolio-card-play-trigger"
+                          type="button"
+                          aria-haspopup="dialog"
+                          aria-label="유튜브용 카드 영상 재생"
+                        >
+                          <span class="portfolio-card-title-text">
+                            유튜브용 카드
+                          </span>
+                          <span class="portfolio-card-title-action">영상 재생</span>
+                        </button>
+                      </div>
+                    </article>
+                    <article
+                      class="swiper-slide portfolio-card"
+                      data-media-type="video"
+                      data-media-src="video/%2301_Final.mp4"
+                      data-media-title="PROJECT 03"
+                      data-poster-time="0"
+                    >
+                      <div class="portfolio-card-media">
+                        <video
+                          class="portfolio-card-video"
+                          muted
+                          loop
+                          playsinline
+                          preload="auto"
+                        >
+                          <source src="video/%2301_Final.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                      <div class="portfolio-card-meta">
+                        <div class="portfolio-card-tags">
+                          <span>3D</span>
+                          <span>광고 모션</span>
+                        </div>
+                        <button
+                          class="portfolio-card-title portfolio-card-play-trigger"
+                          type="button"
+                          aria-haspopup="dialog"
+                          aria-label="PROJECT 03 영상 재생"
+                        >
+                          <span class="portfolio-card-title-text">PROJECT 03</span>
+                          <span class="portfolio-card-title-action">영상 재생</span>
+                        </button>
+                      </div>
+                    </article>
+                    <article
+                      class="swiper-slide portfolio-card"
+                      data-media-type="video"
+                      data-media-src="video/%2301_Final.mp4"
+                      data-media-title="PROJECT 04"
+                      data-poster-time="0"
+                    >
+                      <div class="portfolio-card-media">
+                        <video
+                          class="portfolio-card-video"
+                          muted
+                          loop
+                          playsinline
+                          preload="auto"
+                        >
+                          <source src="video/%2301_Final.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                      <div class="portfolio-card-meta">
+                        <div class="portfolio-card-tags">
+                          <span>쇼트폼</span>
+                          <span>캠페인</span>
+                        </div>
+                        <button
+                          class="portfolio-card-title portfolio-card-play-trigger"
+                          type="button"
+                          aria-haspopup="dialog"
+                          aria-label="PROJECT 04 영상 재생"
+                        >
+                          <span class="portfolio-card-title-text">PROJECT 04</span>
+                          <span class="portfolio-card-title-action">영상 재생</span>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <div
+      class="portfolio-player"
+      id="portfolio-player"
+      hidden
+      aria-hidden="true"
+    >
+      <div
+        class="portfolio-player-backdrop"
+        data-player-close="true"
+        aria-hidden="true"
+      ></div>
+      <section
+        class="portfolio-player-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="portfolio-player-title"
+      >
+        <div class="portfolio-player-head">
+          <p class="portfolio-player-title" id="portfolio-player-title">
+            PROJECT
+          </p>
+          <button
+            class="portfolio-player-close"
+            type="button"
+            aria-label="Close player"
+            data-player-close="true"
+          >
+            CLOSE
+          </button>
+        </div>
+        <div class="portfolio-player-media">
+          <video
+            class="portfolio-player-video"
+            controls
+            playsinline
+            preload="auto"
+          ></video>
+          <iframe
+            class="portfolio-player-iframe"
+            hidden
+            title="Portfolio player"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+      </section>
+    </div>
+    <footer class="site-footer">
+      <p class="news">
+        <span class="tag">PORTFOLIO</span>
+        <span>&copy; 2026</span>
+        <span>SHOWREEL</span>
+      </p>
+    </footer>
+    <script src="js/menu-trail.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/portfolio-media.js"></script>
+    <script src="js/portfolio-swiper.js"></script>
+    <script src="js/portfolio-player.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
